@@ -9,10 +9,10 @@ import logging
 
 from fastmcp import FastMCP
 
-from .connection import connect_to_stash
-from .prompts import register_prompts
-from .resources import register_resources
-from .tools import register_tools
+from stash_mcp_server.connection import connect_to_stash
+from stash_mcp_server.prompts import register_prompts
+from stash_mcp_server.resources import register_resources
+from stash_mcp_server.tools import register_tools
 
 logger: logging.Logger = logging.getLogger(__name__)
 
